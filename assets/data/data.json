@@ -1,0 +1,72 @@
+{
+    "media_list": [
+        {
+            
+            "name": "Menu",
+            "detalles": [
+                {
+                    "icon": "zap",
+                    "detail":"Explore"
+                },                
+                {
+                    "icon": "volume-2",
+                    "detail":"Genres"
+                },                
+                {
+                    "icon": "book-image",
+                    "detail":"Albums"
+                },
+                {
+                    "icon": "mic",
+                    "detail":"Artists"
+                },
+                {
+                    "icon": "radio",
+                    "detail":"Poddcasts"
+                }
+            ],
+            "name_two": "LIBRARY",
+            "library": [
+                {
+                    "icon": "zap",
+                    "detail":"Explore"
+                },                
+                {
+                    "icon": "volume-2",
+                    "detail":"Genres"
+                },                
+                {
+                    "icon": "book-image",
+                    "detail":"Albums"
+                },
+                {
+                    "icon": "mic",
+                    "detail":"Artists"
+                },
+                {
+                    "icon": "radio",
+                    "detail":"Poddcasts"
+                }
+            ],
+            "name_three": "PLAYLIST",
+            "playlist": [
+                {
+                    "icon": "zap",
+                    "detail":"Explore"
+                },                
+                {
+                    "icon": "volume-2",
+                    "detail":"Genres"
+                },                
+                {
+                    "icon": "book-image",
+                    "detail":"Albums"
+                },
+                {
+                    "icon": "mic",
+                    "detail":"Artists"
+                }
+            ]
+        }
+    ] 
+}
