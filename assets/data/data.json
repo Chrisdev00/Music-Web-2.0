@@ -1,7 +1,6 @@
 {
     "media_list": [
-        {
-            
+        {            
             "name": "Menu",
             "detalles": [
                 {
@@ -28,45 +27,107 @@
             "name_two": "LIBRARY",
             "library": [
                 {
-                    "icon": "zap",
-                    "detail":"Explore"
+                    "icon": "undo-2",
+                    "detail":"Recent"
                 },                
                 {
-                    "icon": "volume-2",
-                    "detail":"Genres"
-                },                
-                {
-                    "icon": "book-image",
+                    "icon": "album",
                     "detail":"Albums"
+                },                
+                {
+                    "icon": "heart",
+                    "detail":"Favourites"
                 },
                 {
-                    "icon": "mic",
-                    "detail":"Artists"
-                },
-                {
-                    "icon": "radio",
-                    "detail":"Poddcasts"
+                    "icon": "folder-open",
+                    "detail":"Local"
                 }
             ],
             "name_three": "PLAYLIST",
             "playlist": [
                 {
-                    "icon": "zap",
-                    "detail":"Explore"
+                    "icon": "square_plus",
+                    "detail":"Create New"
                 },                
                 {
-                    "icon": "volume-2",
-                    "detail":"Genres"
+                    "icon": "circle_play",
+                    "detail":"Best of 2023"
                 },                
                 {
-                    "icon": "book-image",
-                    "detail":"Albums"
+                    "icon": "circle_play",
+                    "detail":"Best of 2022"
                 },
                 {
-                    "icon": "mic",
-                    "detail":"Artists"
+                    "icon": "circle_play",
+                    "detail":"Kael Fischer"
                 }
             ]
         }
-    ] 
+    ],
+
+    "genres": [
+        {
+            "cards": [
+                {
+                    "tipo": "Electro",
+                    "genero": "Pop"
+                },
+                {
+                    "tipo": "Dance",
+                    "genero": "Beat"
+                },
+                {
+                    "tipo": "ClubHouse",
+                    "genero": "Remix"
+                },
+                {
+                    "tipo": "HipHop",
+                    "genero": "Rap"
+                },
+                {
+                    "tipo": "Alternative",
+                    "genero": "Indie"
+                },
+                {
+                    "tipo": "Classical",
+                    "genero": "Period"
+                }
+            ]
+        }
+    ],
+
+    "music" : [
+        {
+            "info_songs": [
+                {
+                    "num": "01",
+                    "img": "/song-1.png",
+                    "title": "Sunrise",
+                    "singer": "Lila Rivera",
+                    "dur": "03:45"
+                },
+                {
+                    "num": "02",
+                    "img": "/song-2.png",
+                    "title": "Voyage",
+                    "singer": "Tyde Brennan",
+                    "dur": "04:30"
+                },
+                {
+                    "num": "03",
+                    "img": "/song-3.png",
+                    "title": "Breeze",
+                    "singer": "Sola Kim",
+                    "dur": "04:22"
+                },
+                {
+                    "num": "04",
+                    "img": "/song-4.png",
+                    "title": "Twilight",
+                    "singer": "Jett Lawsonn",
+                    "dur": "03:17"
+                }
+            ]
+        }
+    ]
 }
