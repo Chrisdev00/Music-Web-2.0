@@ -1,11 +1,11 @@
 import reflex as rx
 
 
-def main_card_genres(tip:str, gen:str) ->rx.Component:
+def main_card_genres(tip:str, gen:str, col:str) ->rx.Component:
     return rx.box(        
         rx.text(tip, font_size="14px"),
         rx.text(gen, font_size="14px"),
-        background_color= "#476a8a",
+        background_color= col,
         padding= "22px 10px",
         display= "flex",
         justify_content= "center",

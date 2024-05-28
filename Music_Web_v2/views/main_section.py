@@ -7,7 +7,7 @@ from Music_Web_v2.data import Music, Song
 
 
 def main_section(data: list[Music], det: list[Song]) -> rx.Component:
-    return rx.box(
+    return rx.grid(
         main_options(),
         main_info(),
         rx.box(

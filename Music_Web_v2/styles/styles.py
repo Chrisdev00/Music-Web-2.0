@@ -26,6 +26,7 @@ STYLESHEETS = [
 ]
 
 BASE_STYLE = {
-    "box_sizing": "border-box",
-    "font_family": "Roboto"
+    #"box_sizing": "border-box",
+    "font_family": "Roboto",
+    #"background": "linear-gradient(#050505, #18181d)"
 }

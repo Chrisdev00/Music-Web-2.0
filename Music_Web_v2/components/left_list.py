@@ -12,24 +12,37 @@ def left_list(informa: Info) ->rx.Component:
                 rx.text(
                     informa.name,
                     color = "#919191",
-                    #margin_bottom = "12px",
+                    margin_top= "-35px",
+                    margin_bottom = "8px",
                     text_transform = "uppercase"
                 ),
                 *[
                     left_buttons(info.icon, text=info.detail)
                     for info in informa.detalles
                 ],
-                rx.text(informa.name_two),
+                rx.text(
+                    informa.name_two,
+                    color = "#919191",
+                    margin_top= "35px",
+                    margin_bottom = "8px",
+                    text_transform = "uppercase"
+                ),
                 *[
                     left_buttons(info.icon, text=info.detail)
                     for info in informa.library
                 ],
-                rx.text(informa.name_three),
+                rx.text(
+                    informa.name_three,
+                    color = "#919191",
+                    margin_top= "35px",
+                    margin_bottom = "8px",
+                    text_transform = "uppercase"
+                ),
                 *[
                     left_buttons(info.icon, text=info.detail)
                     for info in informa.playlist
                 ],
-                gap = "0.8em"
+                gap = "0.7em"
             )
         )
     )

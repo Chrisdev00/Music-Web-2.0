@@ -8,9 +8,10 @@ class Detail:
         self.detail = detail
 
 class DetailMusic:
-    def __init__(self, tipo, genero):
+    def __init__(self, tipo, genero, color):
         self.tipo = tipo
         self.genero = genero
+        self.color = color
 
 class InfoMusic:
     def __init__(self, num, img, title, singer, dur):

@@ -5,7 +5,7 @@ from Music_Web_v2.components.main_card_genres import main_card_genres
 def main_menu(inf: Music) ->rx.Component:
     return rx.box(
         *[
-            main_card_genres(det.tipo, det.genero)
+            main_card_genres(det.tipo, det.genero, det.color)
             for det in inf.cards
         ],
         display= "grid",

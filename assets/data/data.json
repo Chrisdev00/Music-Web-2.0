@@ -70,27 +70,33 @@
             "cards": [
                 {
                     "tipo": "Electro",
-                    "genero": "Pop"
+                    "genero": "Pop",
+                    "color": "#476a8a"
                 },
                 {
                     "tipo": "Dance",
-                    "genero": "Beat"
+                    "genero": "Beat",
+                    "color": "#a69984"
                 },
                 {
                     "tipo": "ClubHouse",
-                    "genero": "Remix"
+                    "genero": "Remix",
+                    "color": "#a24c34"
                 },
                 {
                     "tipo": "HipHop",
-                    "genero": "Rap"
+                    "genero": "Rap",
+                    "color": "#0d4045"
                 },
                 {
                     "tipo": "Alternative",
-                    "genero": "Indie"
+                    "genero": "Indie",
+                    "color": "#a67894"
                 },
                 {
                     "tipo": "Classical",
-                    "genero": "Period"
+                    "genero": "Period",
+                    "color": "#5547a5"
                 }
             ]
         }

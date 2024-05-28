@@ -1,7 +1,7 @@
 import reflex as rx
 
 def main_info() ->rx.Component:
-    return rx.hstack(
+    return rx.box(
         rx.box(
             rx.heading("Trending New Song", size="3"),
             rx.box(
@@ -40,7 +40,7 @@ def main_info() ->rx.Component:
                     cursor= "pointer"
                 ),
                 margin_top= "12px",
-                padding= "26px"
+                padding= "26px 0"
             )
         ),
         rx.image(
