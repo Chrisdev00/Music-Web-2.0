@@ -6,12 +6,9 @@ def left_buttons(icon:str, text:str) -> rx.Component:
         rx.link(
             rx.hstack(
                 rx.icon(
-                    icon,
-                    #size= 20
+                    icon
                 ),
                 rx.text(text),
-                #margin_bottom = "5px",
-                #margin_top = "5px",
                 display = "flex",
                 align_items = "center",
                 gap = "18px",         
@@ -24,7 +21,6 @@ def left_buttons(icon:str, text:str) -> rx.Component:
             text_decoration = "none",
             color = "#fff",
             font_size= "15px",
-            #font_weight= "medium",
             transition = "all 0.3s ease"
         ),
         display= "flex"

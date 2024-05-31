@@ -14,7 +14,7 @@ Data = data.data
 
 def index() -> rx.Component:
     return rx.grid(
-        rx.theme_panel(default_open=True),
+        rx.theme_panel(default_open=False),
         left_section(Data.media_list),
         main_section(Data.genres, Data.music),
         right_section(),

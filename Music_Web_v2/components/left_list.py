@@ -2,6 +2,7 @@ import reflex as rx
 from Music_Web_v2.data import Info
 from Music_Web_v2.components.left_buttons import left_buttons
 from Music_Web_v2.styles.styles import Size, EmSize
+import Music_Web_v2.styles.style_web as styles
 
 
 
@@ -22,10 +23,7 @@ def left_list(informa: Info) ->rx.Component:
                 ],
                 rx.text(
                     informa.name_two,
-                    color = "#919191",
-                    margin_top= "35px",
-                    margin_bottom = "8px",
-                    text_transform = "uppercase"
+                    style=styles.list_style
                 ),
                 *[
                     left_buttons(info.icon, text=info.detail)
@@ -33,10 +31,7 @@ def left_list(informa: Info) ->rx.Component:
                 ],
                 rx.text(
                     informa.name_three,
-                    color = "#919191",
-                    margin_top= "35px",
-                    margin_bottom = "8px",
-                    text_transform = "uppercase"
+                    style=styles.list_style
                 ),
                 *[
                     left_buttons(info.icon, text=info.detail)

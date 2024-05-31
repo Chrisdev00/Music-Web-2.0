@@ -4,7 +4,7 @@ def main_options()->rx.Component:
     return rx.hstack(
         rx.box(
             rx.link(
-                "Music",
+                "Home",
                 href="#",
                 text_transform="uppercase",
                 color= "#919191",
@@ -13,7 +13,7 @@ def main_options()->rx.Component:
                 text_decoration= "none"
             ),
             rx.link(
-                "Live",
+                "Music",
                 href="#",
                 text_transform="uppercase",
                 color= "#919191",

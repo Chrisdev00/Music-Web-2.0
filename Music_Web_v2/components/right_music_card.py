@@ -1,17 +1,6 @@
 import reflex as rx
 from Music_Web_v2.components.right_buttons import right_buttons
 
-class MediaPlayerState(rx.State):
-    is_playing: bool = False
-
-    def play(self):
-        self.is_playing = True
-
-    def pause(self):
-        self.is_playing = False
-
-    def toogle_play(self):
-        self.is_playing = not self.is_playing
 
 def right_music_card() ->rx.Component:
     return rx.box(
@@ -47,15 +36,6 @@ def right_music_card() ->rx.Component:
                     width="100%"
                 ),
                 rx.text("01:02", font_size="11px"),
-                
-                # rx.audio(
-                #     url="/audios/test.mp3",
-                #     controls=True,
-                #     playing=MediaPlayerState.is_playing,
-                # ),
-                # rx.button("Reproducir", on_click=MediaPlayerState.play, style={"backgroundColor": "green", "color": "white"}),
-                # rx.button("Pausar", on_click=MediaPlayerState.pause),
-                # rx.button("Reproducir/Pausar", on_click=MediaPlayerState.toogle_play),
                 #spacing = "2",
                 display= "flex",
                 #flex_direction= "column",

@@ -14,7 +14,7 @@ def left_section(data: list[Info]) ->rx.Component:
             ),
             rx.link(
                 rx.text(
-                    "AsmrProg",
+                    "Chrisdev00",
                     style=styles.links_styles
                 )
             ),
@@ -63,19 +63,12 @@ def left_section(data: list[Info]) ->rx.Component:
                 align_items = "center",
                 justify_content = "center",
                 gap = "6px",
-                font_size = "12px"
+                font_size = "13px"
             ),
             margin_right= "40px",
             width = "100%"
-        ),
-        left = 0,
-        height = "100vh",
-        bg = "#18181d",
-        padding = "20px 36px",
+        ),        
         display = "flex",
-        flex_direction = "column",
-        justify_content = "space-between",
-        z_index = "1000",
-        transition = "all 0.6s ease"
+        style=styles.section_style
 
     )
