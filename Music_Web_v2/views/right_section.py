@@ -28,7 +28,7 @@ def right_section() ->rx.Component:
         #     # color= "#fff",
         #     # height= "88%" #  88%
         # ),
-        padding= "20px 36px 0px 0px",
+        padding= ["20px 36px 0px 46px","","","",  "20px 36px 0px 0px"],
         display = ["flex", "flex", "flex", "flex", "flex"],
         flex_direction = "column",
         width = "100%"

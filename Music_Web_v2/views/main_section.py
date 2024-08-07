@@ -30,7 +30,7 @@ def main_section(data: list[Music], det: list[Song]) -> rx.Component:
                         for dat in data
                     ]                   
                 ),
-                width= "40%",
+                width= ["none","none","none","none", "40%"],
                 color = "#fff",
                 background_color= "#202026",
                 padding= "20px",

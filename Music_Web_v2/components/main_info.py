@@ -5,7 +5,7 @@ def main_info() ->rx.Component:
         rx.box(
             rx.heading("Trending New Song", size="3"),
             rx.box(
-                rx.text("Lost Emotions", font_size="56px", margin_bottom="8px"),
+                rx.text("Lost Emotions", font_size=["none","none","36px","36px" ,"56px"], margin_bottom="8px"),
                 rx.hstack(
                     rx.text("Rion Clarke", display= "inline"),
                     rx.text("63 Million Plays", display="inline", margin_left="12px", color="#919191")
