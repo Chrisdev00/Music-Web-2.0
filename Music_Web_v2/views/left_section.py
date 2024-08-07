@@ -67,8 +67,9 @@ def left_section(data: list[Info]) ->rx.Component:
             ),
             margin_right= "40px",
             width = "100%"
-        ),        
-        display = "flex",
+        ),
+        #            mob//mob-tab//tablet//tab-des//desktop        
+        display = ["none", "none", "none", "flex", "flex"],
         style=styles.section_style
 
     )

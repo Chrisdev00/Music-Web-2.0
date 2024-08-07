@@ -7,7 +7,7 @@ def main_card_genres(tip:str, gen:str, col:str) ->rx.Component:
         rx.text(gen, font_size="14px"),
         background_color= col,
         padding= "22px 10px",
-        display= "flex",
+        display= ["none","none","none","none", "flex"],
         justify_content= "center",
         border_radius= "6px",
         cursor= "pointer",

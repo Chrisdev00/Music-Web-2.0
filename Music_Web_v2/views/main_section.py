@@ -28,13 +28,14 @@ def main_section(data: list[Music], det: list[Song]) -> rx.Component:
                     *[
                         main_menu(dat)
                         for dat in data
-                    ]                    
+                    ]                   
                 ),
                 width= "40%",
                 color = "#fff",
                 background_color= "#202026",
                 padding= "20px",
                 border_radius= "6px",
+                display = ["none", "none", "none", "none", "grid"]
             ),
             rx.box(
                 rx.box(
@@ -53,7 +54,7 @@ def main_section(data: list[Music], det: list[Song]) -> rx.Component:
                         for i in det
                     ]
                 ),
-                width= "65%",
+                width= ["0%", "0%", "100%", "100%", "65%"],
                 background_color= "#202026",
                 padding= "20px",
                 color= "#fff",
@@ -63,5 +64,6 @@ def main_section(data: list[Music], det: list[Song]) -> rx.Component:
             display= "flex",
             gap = "20px"
         ),
-        padding= "20px 36px"       
+        padding= "20px 36px",
+        display = ["none", "none", "grid", "grid", "grid"]    
     )

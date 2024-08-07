@@ -27,3 +27,4 @@ section_style = {
     "z_index" : "1000",
     "transition" : "all 0.6s ease"
 }
+
